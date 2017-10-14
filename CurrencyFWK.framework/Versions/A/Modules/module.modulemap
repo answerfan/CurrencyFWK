@@ -1,0 +1,11 @@
+framework module CurrencyFWK {
+  umbrella header "CurrencyFWK.h"
+
+  export *
+  module * { export * }
+}
+
+module CurrencyFWK.Swift {
+    header "CurrencyFWK-Swift.h"
+    requires objc
+}
